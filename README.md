@@ -29,6 +29,12 @@ deaths have landed over time.
 
 ## Set it up
 
+**Windows, one click:** double-click `start.bat`. It installs dependencies on first
+run, starts the dev server, and opens http://localhost:3000 in your browser.
+Closing the window stops the server.
+
+From a terminal it's the same two lines:
+
 ```bash
 npm install
 npm run dev
