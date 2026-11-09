@@ -45,3 +45,6 @@ local-*
 
 server.log
 *.pid
+# Next.js agent files (auto-generated)
+AGENTS.md
+
