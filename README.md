@@ -190,8 +190,7 @@ p < 1.
   needed for the test/experiment scripts (swap in `tsx` if you prefer Node there). The
   `build` script's `cp` step is Unix-flavoured; on Windows run it under WSL or copy
   `.next/static` and `public` into `.next/standalone/` manually.
-- `bun.lock` is included for Bun users; npm users can ignore it (a `package-lock.json`
-  will be created on first `npm install`).
+- Both lockfiles are committed: `bun.lock` for Bun users and `package-lock.json` for npm users.
 - Only the dependencies actually imported by the app are declared in `package.json`.
 
 ## Results
