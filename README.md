@@ -83,7 +83,6 @@ src/lib/ca/        the engine — single source of truth, no React
   engine.ts          RecyclingCA: step order, transfer operator, cycle detection,
                      observables, live config updates
   rules.ts           ECA (Wolfram) + Life-like (B/S) rule families
-  designs.ts         the 132-hexad Witt design used for sparse attention routing
   analysis.ts        Berlekamp–Massey, coverage, ANF (pure functions)
   url.ts             URL encoding of the full config, versioned
   presets.ts         named rule presets for the GUI
